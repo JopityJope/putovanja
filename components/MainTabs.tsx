@@ -15,9 +15,9 @@ function MainTabs() {
   ];
 
   return (
-    <div className="flex justify-center place-content-center flex-column font-redHatDisplay text-brownlight1 mt-6">
+    <div className="flex place-content-center flex-column font-redHatDisplay text-brownlight1 mt-8">
       <Tabs defaultValue="uvod">
-        <TabsList className="flex w-[55rem]">
+        <TabsList className="flex w-[80rem] justify-between">
           {mainTabs.map((tab, index) => (
             <TabsTrigger key={index} value={tab.value} className="uppercase">
               {tab.name}

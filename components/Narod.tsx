@@ -18,7 +18,7 @@ function Narod() {
             <TabsTrigger
               key={index}
               value={tab.value}
-              className="font-thin text-brownlight2 text-[0.9rem]
+              className="font-thin text-brownlight2 text-[1.5rem] tracking-wide
             border-b-[1px] py-[0.3rem]"
             >
               {tab.name}

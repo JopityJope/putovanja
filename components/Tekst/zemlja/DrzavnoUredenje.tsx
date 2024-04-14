@@ -17,7 +17,7 @@ const drzavno = [
 
 function DrzavnoUredenje() {
   return (
-    <Carousel className="flex w-[55rem] h-[30rem] mt-[5rem] items-center text-justify px-[4rem] text-[1.2rem] ">
+    <Carousel className="flex w-[80rem] h-[50rem] mt-[5rem] items-center text-justify px-[4rem] text-[1.7rem] ">
       <CarouselContent>
         {drzavno.map((item, index) => (
           <CarouselItem className="" key={index}>
